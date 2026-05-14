@@ -1,0 +1,11 @@
+# Ignorar sesiones de CodeIgniter
+writable/session/*
+!writable/session/index.html
+
+# Ignorar logs y archivos temporales
+writable/logs/*
+writable/cache/*
+writable/debugbar/*
+# Ignorar todos los logs
+writable/logs/*
+!writable/logs/index.html

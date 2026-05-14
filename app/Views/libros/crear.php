@@ -19,7 +19,7 @@
        
         </div>
         <button class="btn btn-success" type="submit">Guardar</button>
-        <a href="<?=base_url('/listar');?>" class="btn btn-info">Cancelar</a>
+        <a href="<?=base_url('/listar');?>" class="btn btn-secondary">Cancelar</a>
     </form>
 
         </div>

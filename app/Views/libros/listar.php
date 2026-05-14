@@ -12,11 +12,12 @@
             </tr>
         </thead>
         <tbody>
+           <?php $contador = 1; ?>
             <?php foreach($libros as $libro): ?>
             <tr>
-                <td><?= $libro['id']; ?></td>
+                <td><?= $contador++;
+                ?></td>
                 <td>
-            
                 <img class="img-thumbnail" 
                 src="<?=base_url()?>/uploads/<?= $libro['imagen']; ?>"
                  width ="100" alt="">
@@ -29,7 +30,7 @@
 
 
 
-                <a href="<?=base_url('editar/' . $libro['id']); ?>" class="btn btn-info" type="button">Editar</a>
+                <a href="<?=base_url('editar/' . $libro['id']); ?>" class="btn btn-warning" type="button">Editar</a>
                 <a href="<?=base_url('borrar/' . $libro['id']); ?>" class="btn btn-danger" type="button">Borrar</a>
 
 
