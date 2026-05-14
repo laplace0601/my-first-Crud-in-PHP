@@ -1,5 +1,5 @@
  <?= $cabecera?>
- <a class="btn btn-success" href="<?= base_url('crear') ?>">crea un libro</a>
+ <a class="btn btn-success" href="<?= base_url('crear') ?>">agregar libro</a>
  <br/>
  
  <table class="table table-dark table-striped mt-4">
